@@ -12,7 +12,7 @@ Added ability to receive synaptic input
 #################################
 
 from neuron import h
-import simrun
+import simrun # another file in the project
 h.load_file("stdrun.hoc")
 h.load_file("nrngui.hoc") # load_file
 
@@ -33,7 +33,7 @@ print("simname = " + simname + ", fstem = " + fstem)
 
 # Parameter to set the decay time constant of GABA_A
 # synapses onto the pyramidal neuron
-myTauValue = 10  # This is an example of (one way to) 
+myTauValue = 15  # This is an example of (one way to) 
                  # how to modify synaptic parameters
                  # Look at (approx) line 77 in this
                  # file to see how this parameter is
